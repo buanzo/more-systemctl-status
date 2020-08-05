@@ -5,3 +5,17 @@ a PID it runs pstree and get's its children.  Finally, it merges both
 outputs into one concise, pstree-like output based on systemd-initiated
 processes.
 
+# Installation
+
+The typical:
+
+    pip3 install more-systemctl-status
+
+# Running
+
+Even easier:
+
+
+    ~ # more-systemctl-status
+
+
