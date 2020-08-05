@@ -23,7 +23,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 
-setup(name='dometawrite',
+setup(name='more-systemctl-status',
       version=get_version(),
       description='Provides children data of systemctl status processes. Wrapper for systemctl status and pstree.',
       long_description=long_description,
@@ -34,9 +34,8 @@ setup(name='dometawrite',
       license='Apache',
       zip_safe=False,
       python_requires='>=3.6',
-      packages=['dometawrite'],
-      package_dir={'dometawrite': 'src/dometawrite'},
-      package_data={'dometawrite': ['src/dometawrite/templates/*.jinja']},
+      packages=['moresystemctlstatus'],
+      package_dir={'moresystemctlstatus': 'src/moresystemctlstatus'},
       include_package_data=True,
       install_requires=requirements,
       entry_points={
